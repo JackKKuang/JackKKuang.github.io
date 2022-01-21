@@ -1,0 +1,56 @@
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-top:400px;
+	background-color: beige;
+}
+
+main{
+	/*border:3px solid
+	black;*/
+
+	width:1200px;
+	height:800px;
+	position: absolute;
+	display:grid;
+	grid-template-rows: 3fr 6fr 20fr;
+}
+
+#menu{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+	grid-gap:12px;
+	
+}	
+
+#settings{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+	grid-gap:12px;
+}	
+
+#menu > input{
+		background-color:white;
+		color:orange;
+		font-weight:bold;
+		font-size:18px;
+		font:'Sans Serif';
+		border: 1px solid #696969;
+		border-radius:9px;
+}
+
+#menu > input:hover{
+	background-color:red;
+	color:yellow;
+}
+
+section{
+	border:3px solid #696969;
+	background-color:aliceblue;
+	border-radius:30px;
+	padding:20px;
+}
+
